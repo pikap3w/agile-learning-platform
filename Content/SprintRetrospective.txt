@@ -1,0 +1,8 @@
+ Sprint Retrospective
+Retrospective
+The sprint retrospective occurs after the sprint and sprint review. The retrospective is a meeting with the dev team and scrum master about how the sprint went.
+The team will discuss:
+What went well during the sprint
+What could be improved 
+What the team will commit to improve the next sprint
+This meeting will determine what changes need to be made to the processes or definition of “done” for tasks prior to starting the next sprint.

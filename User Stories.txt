@@ -1,0 +1,39 @@
+What are User Stories in The Scrum approach to agile development?
+User stories are intended to help teams and Product Owners focus on the customer by personifying the application and its features. This is done by creating WHO the end-user is, WHAT they want to do, and WHY they want to do it; and teams tell this story from the perspective of the end-user.
+
+Why do teams use User Stories?
+They make the development process more efficient by framing the tasks with the end-user in mind. This will reduce time spent on unecessary features that do not benefit the end-user. 
+
+What are some examples?
+ex 1.
+
+As a:
+website visitor
+
+I want to:
+subscribe to the mailing list for a product
+
+So I can:
+get poduct updates
+
+ex 2.
+
+As a:
+mobile app user
+
+I want to:
+save all my data to the cloud
+
+So I can:
+access it from another device.
+
+ex 3.
+
+As a:
+registered user
+
+I want to:
+change my password
+
+So I can:
+keep my account secure

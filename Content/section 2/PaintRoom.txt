@@ -1,0 +1,28 @@
+EXERCISE:
+
+Paint a Room!
+
+For this exercise we will have the dev team go through and scrum the process of painting a room. Unlike in the typical scrum process we will have the dev team generate the product backlog. Take 5-10 minutes and individually write down the steps for painting a room in a house. Afterwards the group will come together and compare tasks and, as a group, decide which of the steps are needed to paint and place them in the product backlog. 
+
+For our example we will start with the list below in the product backlog.
+
+Measure the room
+Decide on a color
+Get supplies
+Prep the room for painting
+Paint the room
+Clean up
+
+Next the group will evaluate the tasks and determine whether any of the tasks are too broad and should be broken down into more specific tasks. For example, if the product backlog list contains the items below, then the group may decide that “Prep the room for painting” should be broken down further. The task could be broken into “Move the furniture”, “Lay down tarps”, and “Tape off painting area”.
+
+The product backlog would then look like:
+
+Measure the room
+Decide on a color
+Get supplies
+Move the furniture
+Lay down tarps
+Tape off painting area
+Paint the room
+Clean up
+

@@ -1,0 +1,45 @@
+Sprint Review 
+
+A Sprint Review is held at the end of the Sprint to inspect the Increment and adapt the Product Backlog if needed. During the Sprint Review, the Scrum Team and stakeholders collaborate about what was done in the Sprint. Based on that and any changes to the Product Backlog during the Sprint, attendees collaborate on the next things that could be done to optimize value. This is an informal meeting, not a status meeting, and the presentation of the Increment is intended to elicit feedback and foster collaboration. 
+
+Goal:
+Accomplishments are reviewed and demonstrated to participants
+Feedback is gathered to help determine what to do next
+Potential re-prioritization of Product Backlog Items following discussions
+
+Roster:
+Development Team, Product Owner, Scrum Master, key Stakeholders
+
+Time-Box:
+This is at most a four-hour meeting for one-month Sprints. (target one hour / week of Sprint)
+
+Frequency:
+The next-to-last activity in a Sprint
+
+The Sprint Review includes the following elements: 
+
+Product Owner:
+Explains what Product Backlog items have been "Done" and what has not been "Done"; 
+Discusses the Product Backlog as it stands. He or she projects likely target and delivery dates based on progress to date (if needed);
+Captures feedback that will drive decisions on potential updates to the Product Backlog
+
+Development Team:
+Discusses what went well during the Sprint, what problems it ran into, and how those problems were solved
+Demonstrates the work that it has "Done" and answers questions about the Increment
+
+Scrum Master:
+Creates an environment for gathering feedback and working together to determine what to do next
+Makes sure that all attendees understand the purpose and outcomes of this conversation
+Keeps the discussion within the time-box
+
+All:
+The entire group collaborates on what to do next, so that the Sprint Review provides valuable input to subsequent Sprint Planning; 
+Review of how the marketplace or potential use of the product might have changed what is the most valuable thing to do next; and, 
+Review of the timeline, budget, potential capabilities, and marketplace for the next anticipated releases of functionality or capability of the product. 
+
+The Sprint Review should not incude the following:
+Formal Sign Off
+Utilization Review
+PBI != "Done"
+
+The result of the Sprint Review is a revised Product Backlog that defines the probable Product Backlog items for the next Sprint. The Product Backlog may also be adjusted overall to meet new opportunities.

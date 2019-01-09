@@ -1,0 +1,3 @@
+What are Product Backlog refinements in the SCRUM approach to AGILE development?
+
+Product Backlog refinement is the act of adding detail, estimates, and order to items in the Product Backlog. This is an ongoing process in which the Product Owner and the Development Team collaborate on the details of Product Backlog items. During Product Backlog refinement, items are reviewed and revised. The Scrum Team decides how and when refinement is done. Refinement usually consumes no more than 10% of the of the Development Team. However, Product Backlog items can be updated at any time by the Product Owner or at the Product Owner’s discretion.

@@ -1,6 +1,13 @@
+
+	<video>
+
 In the 1990s software developers were becoming increasingly frustrated with the standard project management process of the time. As clients became more demanding of a products content and expediency, software companies were finding it increasingly difficult to keep up with consumer demand. So, in 2001, 13 discontent developers gathered together with a plan to create a new process to overcome the industries issues. And so, Agile was created.
+
 WHAT IS AGILE?
 	Agile is the process all modern software companies use for the development of software. It is a management system which focuses on flexibility and collaboration over linear, sequential approaches. The main benefit of using the Agile process, is that it allows a company to go to the client throughout various stages of a products development to allow for review and revision. Agile uses 6 "deliverables" to keep track of a product throughout its life cycle. 
+	
+	<image of agile manifesto>
+
 THE DELIVERABLES
 Product vision statement: A summary that articulates the goals for the product.
 Product roadmap: The high-level view of the requirements needed to achieve the product vision.
@@ -9,8 +16,13 @@ Release plan: A timetable for the release of a working product.
 Sprint backlog: The user stories (requirements), goals, and tasks linked to the current sprint.
 Increment: The working product functionality that is presented to the stakeholders at the end of the sprint, and could potentially be given to the customer.
 Several frameworks are used by developers within agile to create a product, but the most popular one in use today is Scrum.
+
 WHAT IS SCRUM?
-	Scrum is the actual development process that occurs during and agile cycle, and is made up of several Sprints. We will go into further detail as to what a Sprint is and how Scrum works, but for now just know that Scrum is a means of dividing a product into several tasks and assigning these tasks to various members of the dev team. What tasks a team focuses on first is determined by which Sprint they are in, and once all tasks and Sprints are completed, you have a finished product.
+	Scrum is the actual development process that occurs during and agile cycle, and is made up of several Sprints. We will go into further detail as to what a Sprint is and how Scrum works, but for now just know that Scrum is a means of dividing a product into several tasks and assigning these tasks to various members of the dev team. What tasks a team focuses on first is determined by which Sprint they are in, and once all tasks and Sprints are completed, you have a deliverable product.
+	
+	
+	<image of a sprint timeline>
+	
 
 WHAT TO EXPECT FROM THIS COURSE
 	This course contains 5 chapters that will take your group through the agile process. The course will contain quizzes, various exercises, as well as a final project that will entail your group creating a product for a client using the Agile/Scrum process. By the end of the course, you should have a much better understanding of how dev teams work and how projects are taken on and completed in the software industry.

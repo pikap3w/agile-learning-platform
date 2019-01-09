@@ -1,1 +1,9 @@
-Disclaimer: In these exercises you will be playing the roles of Product Owner, and a member of the Dev Team. Change a Tire – Exercise – Part 1 – Create Personal Task ListWe walked you through what it looks like to write down all the tasks needed to paint a room. Now it’s your turn to try it out, but your exercise is to write down all the tasks necessary to Change A Tire. Do this on your own and turn in a text file with your ordered steps.Part 2 – Create Product BacklogNow get with your cohort and assign one person to be a scribe. Compile your personal tasks lists together into a master task list through group discussion while the scribe records each step on the white board. Once the master list is created and everyone agrees it is complete, transfer each task onto a sticky note. Rate the sticky notes in order of difficulty as a group until everyone agrees to the order. 
+Disclaimer: In these exercises you will be playing the roles of Product Owner, Scrum Master, and a member of the Dev Team. 
+
+Change a Tire – Exercise – Part 1 – Create Personal Task List
+
+We walked you through what it looks like to write down all the tasks needed to paint a room. Now it’s your turn to try it out, but your exercise is to write down all the tasks necessary to Change A Tire. Do this on your own and turn in a text file with your ordered steps.
+
+Part 2 – Create Product Backlog
+
+Now get with your Dev Team (cohort) and assign one person to be your Scrum Master (scribe, meeting leader). Compile your personal tasks lists together into a master task list through group discussion while the Scrum Master records each step on the white board. Feel free to break tasks down into multiple tasks if necessary. Once the master list is created and everyone agrees it is complete, transfer each task onto a sticky note. Rate the sticky notes in order of difficulty as a group until everyone agrees to the order. Take a picture of the board with all the ranked sticky notes, and turn in.

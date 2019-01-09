@@ -1,0 +1,33 @@
+ Sprint Retrospective
+
+This is a session geared around continous improvement for how the team works together. Participants reflect on project and process related issues, identify the good and bad, and generate a plan of action to improve moving forward. 
+
+Goal:
+Previous Sprint is reviewed by the Scrum Team
+Items that went well and items that need improvement are identified
+Plan is created for the Scrum Team ti improve in the upcoming Sprint
+
+Roster:
+Development Team, Scrum Master, Product Owner
+
+Time-box:
+3 hours for a 4-week sprint (target < 1 hour for each week of Sprint)
+
+Frequency:
+The last activity in a Sprint
+
+
+The Product Owner and Development Team will discuss:
+What went well during the sprint
+Review previous plan to see if the Scrum Team improved
+Create a plan for following through on improvements the Scrum Team identified in the upcoming Sprint
+What the team will commit to improve the next sprint
+This meeting will determine what changes need to be made to the processes or definition of “done” for tasks prior to starting the next sprint.
+
+Scrum Master:
+Participates as a peer in this session: even-level!
+Assist participants in creating a plan for improving the next Sprint
+Sometimes acts as a facilitator; beneficial for a third party to perform this
+
+<image example>
+Keep | Stop | Start 

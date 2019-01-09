@@ -1,0 +1,59 @@
+User stories are derived from the Product Backlog which contains a list of all features, functions, requirements, enhancements, and fixes that constitute changes to be made to the product in the future.
+
+Product Backlog Items (PBI)have the following attributes:
+description, order, estimate, and value.
+
+User stories area apoplar way to represent PBIs.
+
+What are User Stories in The Scrum approach to agile development?
+User stories are intended to help teams and Product Owners focus on the customer by personifying the application and its features. This is done by creating WHO the end-user is (type of user), WHAT they want to do (goal or desire), and WHY they want to do it (outcome and value); and teams tell this story from the perspective of the end-user.
+
+Statemen from a "user"
+Written in business language
+NOT a signed contract
+Focus on the 'Who', 'What', and 'Why'
+Does NOT focus no the 'how'
+
+Parts of a User Story
+Working Title - make sure that the stoy has a titl that was derived from the description. These need to match, if they don't they'll cause some confusion!
+
+Description - it should be clear from this section what VALUE is being provided as wel as who or what wold BENEFIT from this particular story being completed.
+
+Acceptance Criteria - this criteria helps the Scrum Team come to agreement on th "Definition of Done" for this item.
+
+Why do teams use User Stories?
+They make the development process more efficient by framing the tasks with the end-user in mind. This will reduce time spent on unecessary features that do not benefit the end-user. 
+
+What are some user story examples?
+ex 1.
+
+User Story
+Title: Strong passwords
+As a: frequent book buyer
+I can: protect my account information
+So that: my credit card info is secure
+
+Acceptance Criteria
+At least eight characters
+At least one lower case char
+At least one upper case char
+At least one number
+At least one special char(!,@,#,$)
+
+
+<insert the user story process jpeg>
+
+
+User stories are a type of specification, right?
+NO! They’re supposed to serve as a centerpiece for frequent interdisciplinary discussion about how to implement something valuable to the user. This is kind of where the use of stories and the practice of agile need to converge. The basic idea is that instead of working in a sequential (waterfall) way from specification to development to test to release you’re doing all of those things together in small batches. In the next section, we’ll step through how to create stories like a designer, but I’ll close with a few cautionary notes about what to watch out for with your user stories.
+
+Why are most user stories so bad?
+
+Mistaken Belief that Software is Automatically Magic
+I know it sounds silly, but you’re probably working with people that implicitly think this to a degree. It’s true- amazing things happen with software. But that software wasn’t automatically magic; someone had to put the magic in it. That someone is you. The next section will show you how to conjure that magic.
+
+We Measure Our Efficiency Locally
+To a degree, we all just want to finish our work and go watch Netflix. That’s fine. That’s natural. But, if you want to build great software, you have to want to consistently ask the hard questions of your colleagues and your work about whether what you’re doing is still making sense. Is there a strong, testable case that it’s going to valuable to the user? That’s hard to do consistently. A lot of product managers just slam user stories into JIRA and call it a day. It’s not that hard to run a more thoughtful, disciplined program, but it’s not that easy either. You have to really want it.
+
+No Data
+You have to know your user and what’s on their A-list to write good user stories. Without that, you’re just going to be groping at some idea about what the software might do and then spending way more money than you need to to find out if you’re right or not. 

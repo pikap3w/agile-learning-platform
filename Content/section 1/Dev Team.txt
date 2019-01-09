@@ -1,0 +1,3 @@
+What is the role of the Dev Team in the SCRUM approach to AGILE development?
+
+The Dev Team gets the work done. They also forecast how much work they can get done by dividing the sprint goal into tasks. Then, they rank these tasks by difficulty and each member decides on a task to be theirs to complete before the next SCRUM.

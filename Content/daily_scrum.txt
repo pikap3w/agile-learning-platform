@@ -1,8 +1,23 @@
-Daily Scrum
+﻿Daily Scrum
 
-During a sprint, the development team conducts daily scrum or “standup” meetings. These meetings occur at the same time and place each day and last for a maximum of 15 minutes. This 15-minute time-box is enforced to make sure that this is a quick check-in amongst the dev team members, and does not turn into a design session. The goal is to create a plan for the next 24 hours, taking into account everything that's happened so far in the sprint, and reevaluate the plan as we get closer to meeting the sprint goal.
+During a sprint, the development team conducts daily scrum or “standup” meetings.
 
-Here is the thing many people misunderstand about the daily scrum: it is by and for the development team. The development team and only the development team creates a plan for the next day. Early on, the scrum master may join these meetings to help facilitate them, but ultimately the scrum master should grow the capabilities on the development team to where there really is not a need for an outside facilitator. This helps promote self-organization and shared accountability within the development team. 
+Goal:
+Impediments are indentified for later action, outside of this particular session
+Alignment of activities across the Development Team
+Offline meetings can be identified during discussion but held later
+
+Roster:
+Development Team, Scrum Master, Product Owner (optional)
+
+Time-box:  
+This 15-minute time-box is enforced to make sure that this is a quick check-in amongst the dev team members, and does not turn into a design session. The goal is to create a plan for the next 24 hours, taking into account everything that's happened so far in the sprint, and reevaluate the plan as we get closer to meeting the sprint goal.
+
+Frequency:
+These meetings occur at the same time and place each day and last for a maximum of 15 minutes.
+
+
+Here is the thing many people misunderstand about the daily scrum: it is by and for the development team. 
 
 Benefits of Daily Scrum
 

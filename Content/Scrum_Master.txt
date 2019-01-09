@@ -1,0 +1,34 @@
+The Scrum Master
+
+The Scrum MAster works as servant leader, supporting the Product Owner, the Development Team, and the whole organization to promtoe and support the implementation of Scrum. They do this by evangelizing Scrum theory, practices, rules, and values.
+
+
+Responsibilities
+
+Evangelizes Scrum theory, practices, rues, and values
+Aids the Product Owner in creating and maintaining the Product Backlog
+Supports the Development Team as they accomplish backlog iitems to realize the Definition of Done
+Removes impediments that are holding up the Development Team's progress towards sprint goals
+Shields Development Team members from external distractions
+Coaches the organization in the adoption of Scrum
+Organizes/facilitates Sprint events
+Improves visibility by creating information radiators
+
+Characteristics
+
+Always looking to grow their skills
+Enjoys seeing others succeed
+Builds Rapport quikcly
+Great story tellrs
+"People person"
+Listens effectively
+Helpful to others
+Strong facilitaion skills
+Makes things easier, not harder
+
+
+To be successful, SMs must:
+have their role understood and supported by the organization
+have a strong grasp  on Scrum and the ability to teach/coaching
+have no authority to make decisions on Team commitments
+

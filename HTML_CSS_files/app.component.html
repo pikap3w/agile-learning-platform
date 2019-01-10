@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Collapsible sidebar using Bootstrap 4</title>
+    <title>Scrum Learning Platform</title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -32,19 +32,67 @@
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="#">Overview</a>
+                    <a href="#OverviewSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Scrum Overview</a>
+                    <ul class="collapse list-unstyled" id="OverviewSubmenu">
+                        <li>
+                            <a href="#">Overview</a>
+                        </li>
+                        <li>
+                            <a href="#">Product Owner</a>
+                        </li>
+                        <li>
+                            <a href="#">Scrum Master</a>
+                        </li>
+                        <li>
+                            <a href="#">Dev Team</a>
+                        </li>
+                        <li>
+                            <a href="#">Quiz 1</a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Pages</a>
-                </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
+            </ul>
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#CycleSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Scrum Cycle</a>
+                    <ul class="collapse list-unstyled" id="CycleSubmenu">
+                        <li>
+                            <a href="#">Sprint Cycle</a>
+                        </li>
+                        <li>
+                            <a href="#">Backlog Refinement</a>
+                        </li>
+                        <li>
+                            <a href="#">User Stories</a>
+                        </li>
+                        <li>
+                            <a href="#">Exercise: User Stories</a>
+                        </li>
+                        <li>
+                            <a href="#">Sprint Planning</a>
+                        </li>
+                        <li>
+                            <a href="#">Exercise: Change a Tire</a>
+                        </li>
+                        <li>
+                            <a href="#">Daily Scrum</a>
+                        </li>
+                        <li>
+                            <a href="#">Sprint</a>
+                        </li>
+                        <li>
+                            <a href="#">Sprint Review</a>
+                        </li>
+                        <li>
+                            <a href="#">Sprint Retrospective</a>
+                        </li>
+                        <li>
+                            <a href="#">Quiz 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Exercize: Other Agile Methods</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </nav>

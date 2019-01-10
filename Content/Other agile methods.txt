@@ -1,0 +1,31 @@
+1. Agile software development methods support a broad range of the software development.
+To list a few check out below:
+
+Extreme Programming (XP) https://en.wikipedia.org/wiki/Extreme_programming
+Feature-driven development https://en.wikipedia.org/wiki/Feature-driven_development
+Lean software development https://en.wikipedia.org/wiki/Lean_software_development
+Kanban https://en.wikipedia.org/wiki/Kanban_(development)
+
+
+2. Review these two articles on Technical Debt:
+https://en.wikpedia.org/wiki/Technical_debt
+https://martinfowler.com/bliki/TechnicalDebt.html
+
+In two to three sentences, describe how you would explain Technical Debt to someone else who has no experience with the concept/
+
+3. Review this article on the "Debt Quadrant" from Martin Fowler:
+https://martinfowler.com/bliki/TechnicalDebtQuadrant.html
+Provide an example of each of the following, and where applicable use one of your own personal experiences of something you have experienced, observed, or were impacted by:
+a. Deliberate + Reckless debt
+b. Deliberate + Prudent debt
+c. Inadvertent + Reckless debt
+d. Inadvertent + Prudent debt
+
+4. Write down 2 interesting facts about each technical pratice below.
+
+a. Simple Design
+b. Test Driven Development
+c. Refactoring
+d. Continous Integration
+e. Collective Code Ownership
+f. Pair Programming

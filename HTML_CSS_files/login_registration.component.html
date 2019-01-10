@@ -1,19 +1,54 @@
 <head>
-  <link rel="stylesheet" type="text/css" href="./login_registration.component.css">
+	<link rel="stylesheet" type="text/css" href="./login_registration.component.css">
+	<link rel="stylesheet" type="text/css"
+	      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<title>Login - Agile Learning Platform</title>
 </head>
 <body>
-  <input type='checkbox' id='form-switch'>
-  <form id='login-form' action="" method='post'>
-    <input type="text" placeholder="Username" required>
-    <input type="password" placeholder="Password" required>
-    <button type='submit'>Login</button>
-    <label for='form-switch'><span>Register</span></label>
-  </form>
-  <form id='register-form' action="" method='post'>
-    <input type="text" placeholder="Username" required>
-    <input type="password" placeholder="Password" required>
-    <input type="password" placeholder="Re Password" required>
-    <button type='submit'>Register</button>
-    <label for='form-switch'>Already Member ? Sign In Now..</label>
-  </form>
+<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-12 text-center">
+			<div class="login-box">
+				<div class="row">
+					<div class="col">
+						<h1>Log In</h1>
+					</div>
+				</div>
+				<input type='checkbox' id='form-switch'>
+				<form id='login-form' action="" method='post'>
+					<div class="row mt-4">
+						<div class="col">
+							<input type="text" class='form-control' placeholder="Username" required>
+						</div>
+					</div>
+					<div class="row mt-4">
+						<div class="col">
+							<input type="password" class='form-control' placeholder="Password" required>
+						</div>
+					</div>
+					<div class="row mt-4">
+						<div class="col">
+							<button type='submit'>Login</button>
+							<label for='form-switch'><span class="">Register</span></label>
+						</div>
+					</div>
+
+				</form>
+				<form id='register-form' action="" method='post'>
+					<input type="text" placeholder="Username" required>
+					<input type="password" placeholder="Password" required>
+					<input type="password" placeholder="Re-enter Password" required>
+					<button type='submit'>Register</button>
+					<label for='form-switch'>Already Member ? Sign In Now..</label>
+				</form>
+
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+</div>
+</div>
 </body>

@@ -1,4 +1,4 @@
-﻿User stories are derived from the Product Backlog which contains a list of all features, functions, requirements, enhancements, and fixes that constitute changes to be made to the product in the future.
+User stories are derived from the Product Backlog which contains a list of all features, functions, requirements, enhancements, and fixes that constitute changes to be made to the product in the future.
 
 Product Backlog Items (PBI)have the following attributes:
 description, order, estimate, and value.
@@ -50,7 +50,7 @@ NO! They’re supposed to serve as a centerpiece for frequent interdisciplinary 
 Why are most user stories so bad?
 
 Mistaken Belief that Software is Automatically Magic
-I know it sounds silly, but you’re probably working with people that implicitly think this to a degree. It’s true- amazing things happen with software. But that software wasn’t automatically magic; someone had to put the magic in it. That someone is you.
+I know it sounds silly, but you’re probably working with people that implicitly think this to a degree. It’s true- amazing things happen with software. But that software wasn’t automatically magic; someone had to put the magic in it. That someone is you. The next section will show you how to conjure that magic.
 
 We Measure Our Efficiency Locally
 To a degree, we all just want to finish our work and go watch Netflix. That’s fine. That’s natural. But, if you want to build great software, you have to want to consistently ask the hard questions of your colleagues and your work about whether what you’re doing is still making sense. Is there a strong, testable case that it’s going to valuable to the user? That’s hard to do consistently. A lot of product managers just slam user stories into JIRA and call it a day. It’s not that hard to run a more thoughtful, disciplined program, but it’s not that easy either. You have to really want it.

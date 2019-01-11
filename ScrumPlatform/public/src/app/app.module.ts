@@ -8,7 +8,7 @@ import { HttpService } from './http.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
-
+import { MalihuScrollbarModule } from 'ngx-malihu-scrollbar';
 import { LoginRegComponent } from './login-reg/login-reg.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { ExerciseComponent } from './exercise/exercise.component';
@@ -26,6 +26,9 @@ import { DailyScrumComponent } from './content/daily-scrum/daily-scrum.component
 import { SprintComponent } from './content/sprint/sprint.component';
 import { SprintReviewComponent } from './content/sprint-review/sprint-review.component';
 import { SprintRetrospectiveComponent } from './content/sprint-retrospective/sprint-retrospective.component';
+import { ChangeTireComponent } from './exercise/change-tire/change-tire.component';
+import { OtherAgileComponent } from './exercise/other-agile/other-agile.component';
+import { StoriesExerciseComponent } from './exercise/stories-exercise/stories-exercise.component';
 
 
 @NgModule({
@@ -47,13 +50,17 @@ import { SprintRetrospectiveComponent } from './content/sprint-retrospective/spr
     DailyScrumComponent,
     SprintComponent,
     SprintReviewComponent,
-    SprintRetrospectiveComponent
+    SprintRetrospectiveComponent,
+    ChangeTireComponent,
+    OtherAgileComponent,
+    StoriesExerciseComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    MalihuScrollbarModule.forRoot()
   ],
   providers: [HttpService],
   bootstrap: [AppComponent]

@@ -1,6 +1,18 @@
 {
   "name": "public",
   "version": "0.0.0",
+  "keywords": [
+    "scrum"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pikap3w/agile-learning-platform.git"
+  },
+  "maintainers": [
+    {
+      "name": "Chris Truax, Daniel Warrick, Henry Kim, Ian Hurd, Kristen Martino & Ryan Churay"
+    }
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -20,12 +32,18 @@
     "@angular/platform-browser": "~7.0.0",
     "@angular/platform-browser-dynamic": "~7.0.0",
     "@angular/router": "~7.0.0",
+    "bootstrap": "^4.1.1",
     "core-js": "^2.5.4",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6",
+    "ngx-bootstrap": "^3.1.4",
+    "ngx-malihu-scrollbar": "^7.0.0",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.10.0",
+    "@angular-devkit/build-angular": "^0.12.1",
     "@angular/cli": "~7.0.4",
     "@angular/compiler-cli": "~7.0.0",
     "@angular/language-service": "~7.0.0",

@@ -1,1 +1,64 @@
-Quiz 1 Ð RolesBased on the below description of a task, tell us whose task it is.1. Accepts responsibility for identified tasksÉA. Product OwnerB. Scrum MasterC. Development Team {correct}D. All the above2. Manages stakeholder expectationsÉA. Product Owner {correct}B. Scrum MasterC. Development Team D. All the above3. Embraces and ÒlivesÓ the Five Scrum ValuesÉA. Product OwnerB. Scrum MasterC. Development Team D. All the above {correct}4. Removes impedimentsÉA. Product OwnerB. Scrum Master {correct}C. Development Team D. All the above5. Responsible for the sprint backlogÉA. Product OwnerB. Scrum MasterC. Development Team {correct}D. All the aboveQuiz 2 Ð Sprint EventsWhich part of a sprint do these happen?1. Stakeholders, Customers, and users actively participate.A. Sprint PlanningB. Daily ScrumC. Sprint Review {correct}D. Sprint RetrospectiveE. Backlog Refinement2. Impediments to activities are identified and stated by meeting participants.A. Sprint PlanningB. Daily Scrum {correct}C. Sprint ReviewD. Sprint RetrospectiveE. Backlog Refinement3. Identifying ÒWhatÓ can be delivered in the Increment resulting from the next SprintA. Sprint Planning {correct}B. Daily ScrumC. Sprint ReviewD. Sprint RetrospectiveE. Backlog Refinement4. Activities center on adding details, estimates, or ordering of items.A. Sprint PlanningB. Daily ScrumC. Sprint ReviewD. Sprint RetrospectiveE. Backlog Refinement {correct}5. Creation of a plan to address identified areas of improvement.A. Sprint PlanningB. Daily ScrumC. Sprint ReviewD. Sprint Retrospective {correct}E. Backlog Refinement
+Quiz 1  Roles
+Based on the below description of a task, tell us whose task it is.
+1. Accepts responsibility for identified tasksï¿½
+A. Product Owner
+B. Scrum Master
+C. Development Team {correct}
+D. All the above
+2. Manages stakeholder expectationsï¿½
+A. Product Owner {correct}
+B. Scrum Master
+C. Development Team 
+D. All the above
+3. Embraces and lives the Five Scrum Valuesï¿½
+A. Product Owner
+B. Scrum Master
+C. Development Team 
+D. All the above {correct}
+4. Removes impedimentsï¿½
+A. Product Owner
+B. Scrum Master {correct}
+C. Development Team 
+D. All the above
+5. Responsible for the sprint backlogï¿½
+A. Product Owner
+B. Scrum Master
+C. Development Team {correct}
+D. All the above
+
+Quiz 2 - Sprint Events - Which part of a sprint do these happen?
+1. Stakeholders, Customers, and users actively participate.
+A. Sprint Planning
+B. Daily Scrum
+C. Sprint Review {correct}
+D. Sprint Retrospective
+E. Backlog Refinement
+2. Impediments to activities are identified and stated by meeting participants.
+A. Sprint Planning
+B. Daily Scrum {correct}
+C. Sprint Review
+D. Sprint Retrospective
+E. Backlog Refinement
+3. Identifying what can be delivered in the Increment resulting from the next Sprint
+A. Sprint Planning {correct}
+B. Daily Scrum
+C. Sprint Review
+D. Sprint Retrospective
+E. Backlog Refinement
+4. Activities center on adding details, estimates, or ordering of items.
+A. Sprint Planning
+B. Daily Scrum
+C. Sprint Review
+D. Sprint Retrospective
+E. Backlog Refinement {correct}
+5. Creation of a plan to address identified areas of improvement.
+A. Sprint Planning
+B. Daily Scrum
+C. Sprint Review
+D. Sprint Retrospective {correct}
+E. Backlog Refinement
+
+
+
+
+

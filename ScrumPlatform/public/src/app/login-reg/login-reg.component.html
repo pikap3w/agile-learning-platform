@@ -1,3 +1,78 @@
-<p>
-  login-reg works!
-</p>
+<head>
+	
+	<link rel="stylesheet" type="text/css"
+	      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<title>Login - Scrum Learning Platform</title>
+</head>
+<body>
+<section class="login-block">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-8 col-lg-7 col-xl-5 text-center">
+				<div class="login-box">
+
+					<!--Login Form-->
+					<input type='checkbox' id='form-switch'>
+					<form id='login-form' action="" method='post'>
+						<div class="row">
+							<div class="col">
+								<h1>Log In</h1>
+							</div>
+						</div>
+						<div class="row mt-4">
+							<div class="col">
+								<input type="text" class='form-control' placeholder="Username" required>
+							</div>
+						</div>
+						<div class="row mt-4">
+							<div class="col">
+								<input type="password" class='form-control' placeholder="Password" required>
+							</div>
+						</div>
+						<div class="row mt-4">
+							<div class="col">
+								<button type='submit' class="btn btn-outline-secondary">Login</button>
+								<label for='form-switch'><span class="">Register</span></label>
+							</div>
+						</div>
+					</form>
+
+					<!--Registration Form-->
+					<form id='register-form' action="" method='post'>
+						<div class="row">
+							<div class="col">
+								<h1>Sign Up</h1>
+							</div>
+						</div>
+						<div class="row mt-4">
+							<div class="col">
+								<input type="text" class='form-control' placeholder="Username" required>
+							</div>
+						</div>
+						<div class="row mt-3">
+							<div class="col">
+								<input type="password" class='form-control' placeholder="Password" required>
+							</div>
+						</div>
+						<div class="row mt-3">
+							<div class="col">
+								<input type="password" class='form-control' placeholder="Re-enter Password" required>
+							</div>
+						</div>
+						<div class="row mt-3">
+							<div class="col">
+								<button type='submit' class="btn btn-outline-secondary">Register</button>
+							</div>
+						</div>
+						<div class="row mt-3">
+							<div class="col">
+								<label for='form-switch'>Already a Member? Sign In Now...</label>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+</body>

@@ -11,7 +11,7 @@ module.exports = {
         res.render('index', {all_users: users});
       }
     });
-  }
+  },
 
   register: function(req, res){
     if ((req.body.password == req.body.password_conf) && (req.body.password.length > 7) && (req.body.password_conf.length > 7)){
@@ -41,7 +41,7 @@ module.exports = {
       err.push(wrong);
       res.json({errors: err, data: ""});
     }
-  }
+  },
 
   login: function(req, res){
     User.findOne({username: req.body.username}, (err, this_user) =>

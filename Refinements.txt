@@ -1,3 +1,43 @@
-What are Product Backlog refinements in the SCRUM approach to AGILE development?
+Product Backlog Refinement Activity
 
-Product Backlog refinement is the act of adding detail, estimates, and order to items in the Product Backlog. This is an ongoing process in which the Product Owner and the Development Team collaborate on the details of Product Backlog items. During Product Backlog refinement, items are reviewed and revised. The Scrum Team decides how and when refinement is done. Refinement usually consumes no more than 10% of the of the Development Team. However, Product Backlog items can be updated at any time by the Product Owner or at the Product Owner’s discretion.
+This activity is the continous act of adding the appropriate detail, estimates, and order to items in the Product Backlog. This is a collaborative sesion with the Product Owner and the Development Team collaborate on the details of Product Backlog items.
+
+Goal:
+Mutual understanding on a per-item basis
+Adequate levels of detail are added to PBI
+Estimates are generated for identified PBI
+Producto Owner orders items based on up-to-date information
+
+Roster:
+Product Owner, Development Team, Scrum Master
+
+Time-box:
+Scrum Teams spend up to 10% of their Sprint capacity on this activity
+
+Frequency:
+Continuous activity
+
+Estimation
+
+Relative Complexity
+
+Compare items relative to each other instead of a vacuum
+Estimates aren't based just on effort, they take into account many factors (complexity, risk, unknowns, etc.)
+Do not map points to hours!
+Measurements do not change or day as time increases
+A team's defination of an item they think is a "3" may change. If so, all other estimates would need to change as well!
+
+
+"Anchoring" is a concept where comments made can affect how teams will estimate particular items, being influenced by statements
+Persuasive and Vocal team members can affect estimates!
+
+"Trust me this is something that's REALLY HARD!"
+"This thing CLEARLY should be with this other thing"
+"Oh, that's EASY it shouldn't take that long"
+
+Velocity
+The term "Velocity" is a reference to the total amount of work completed within a Sprint by the Developmen Team, often measured empirically.
+
+Requires stablity to be accurate; avoid changing the team
+Not a measure of performance, rather it is used for planning purposes
+Helpful to determine how much to take on as well for possible forcasting

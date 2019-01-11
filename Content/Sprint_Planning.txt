@@ -1,6 +1,6 @@
-Sprint Planning
+﻿Sprint Planning
 
-The Scrm Team gathers to discuss the work to be accomplished in the upcoming Sprint in the form of a Sprint Goal. Then, the development Team will determine how the work will be accomplished by creating a sufficiently detailed plan called the Sprint Backlog.
+The Scrum Team gathers to discuss the work to be accomplished in the upcoming Sprint in the form of a Sprint Goal. Then, the development Team will determine how the work will be accomplished by creating a sufficiently detailed plan called the Sprint Backlog.
 
 
 The Sprint Planning meeting is broken down into 2 Parts:

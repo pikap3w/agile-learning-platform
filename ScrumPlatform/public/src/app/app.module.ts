@@ -26,6 +26,9 @@ import { DailyScrumComponent } from './content/daily-scrum/daily-scrum.component
 import { SprintComponent } from './content/sprint/sprint.component';
 import { SprintReviewComponent } from './content/sprint-review/sprint-review.component';
 import { SprintRetrospectiveComponent } from './content/sprint-retrospective/sprint-retrospective.component';
+import { ChangeTireComponent } from './exercise/change-tire/change-tire.component';
+import { OtherAgileComponent } from './exercise/other-agile/other-agile.component';
+import { StoriesExerciseComponent } from './exercise/stories-exercise/stories-exercise.component';
 
 
 @NgModule({
@@ -47,7 +50,10 @@ import { SprintRetrospectiveComponent } from './content/sprint-retrospective/spr
     DailyScrumComponent,
     SprintComponent,
     SprintReviewComponent,
-    SprintRetrospectiveComponent
+    SprintRetrospectiveComponent,
+    ChangeTireComponent,
+    OtherAgileComponent,
+    StoriesExerciseComponent
   ],
   imports: [
     BrowserModule,

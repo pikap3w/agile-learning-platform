@@ -10,12 +10,12 @@ import { FormsModule } from '@angular/forms';
 
 import { MalihuScrollbarModule } from 'ngx-malihu-scrollbar';
 import { LoginRegComponent } from './login-reg/login-reg.component';
-import { QuizComponent } from './quiz/quiz.component';
-import { ExerciseComponent } from './exercise/exercise.component';
+import { QuizComponent } from './dashboard/quiz/quiz.component';
+import { ExerciseComponent } from './dashboard/exercise/exercise.component';
 
-import { ChangeTireComponent } from './exercise/change-tire/change-tire.component';
-import { OtherAgileComponent } from './exercise/other-agile/other-agile.component';
-import { StoriesExerciseComponent } from './exercise/stories-exercise/stories-exercise.component';
+import { ChangeTireComponent } from './dashboard/exercise/change-tire/change-tire.component';
+import { OtherAgileComponent } from './dashboard/exercise/other-agile/other-agile.component';
+import { StoriesExerciseComponent } from './dashboard/exercise/stories-exercise/stories-exercise.component';
 
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AboutComponent } from './dashboard/about/about.component';

@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
-import { HttpService } from '../../http.service';
+import { HttpService } from '../../../http.service';
 
 @Component({
-  selector: 'app-change-tire',
-  templateUrl: './change-tire.component.html',
-  styleUrls: ['./change-tire.component.css']
+  selector: 'app-stories-exercise',
+  templateUrl: './stories-exercise.component.html',
+  styleUrls: ['./stories-exercise.component.css']
 })
-export class ChangeTireComponent implements OnInit {
+export class StoriesExerciseComponent implements OnInit {
 
   constructor(private _route: ActivatedRoute, private _httpService: HttpService, private _router: Router) { }
 

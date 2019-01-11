@@ -2,15 +2,15 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 
-import { ExerciseComponent } from './exercise/exercise.component';
+import { ExerciseComponent } from './dashboard/exercise/exercise.component';
 import { LoginRegComponent } from './login-reg/login-reg.component';
-import { QuizComponent } from './quiz/quiz.component';
+import { QuizComponent } from './dashboard/quiz/quiz.component';
 
 
 
-import { ChangeTireComponent } from './exercise/change-tire/change-tire.component';
-import { OtherAgileComponent } from './exercise/other-agile/other-agile.component';
-import { StoriesExerciseComponent } from './exercise/stories-exercise/stories-exercise.component';
+import { ChangeTireComponent } from './dashboard/exercise/change-tire/change-tire.component';
+import { OtherAgileComponent } from './dashboard/exercise/other-agile/other-agile.component';
+import { StoriesExerciseComponent } from './dashboard/exercise/stories-exercise/stories-exercise.component';
 
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AboutComponent } from './dashboard/about/about.component';
@@ -31,12 +31,7 @@ import { SprintRetrospectiveComponent } from './dashboard/content/sprint-retrosp
 
 const routes: Routes = [
   { path: 'login', component: LoginRegComponent },
-  { path: 'quiz/:id', component: QuizComponent },
-  { path: 'exercise', component: ExerciseComponent, children: [
-    { path: 'change-tire', component: ChangeTireComponent },
-    { path: 'other-agile', component: OtherAgileComponent },
-    { path: 'stories-exercise', component: StoriesExerciseComponent },
-  ]},
+
   { path: '', component: DashboardComponent, children: [
     { path: 'about', component: AboutComponent },
     { path: 'lesson', component: ContentComponent, children: [
@@ -52,6 +47,12 @@ const routes: Routes = [
       { path: 'sprint', component: SprintComponent },
       { path: 'sprint-review', component: SprintReviewComponent },
       { path: 'sprint-retrospective', component: SprintRetrospectiveComponent },
+    ]},
+    { path: 'quiz/:id', component: QuizComponent },
+    { path: 'exercise', component: ExerciseComponent, children: [
+      { path: 'change-tire', component: ChangeTireComponent },
+      { path: 'other-agile', component: OtherAgileComponent },
+      { path: 'stories-exercise', component: StoriesExerciseComponent },
     ]},
   ]},
   { path: '**', redirectTo: 'login' },

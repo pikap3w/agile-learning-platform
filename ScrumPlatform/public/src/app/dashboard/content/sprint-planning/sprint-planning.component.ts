@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
-import { HttpService } from '../../http.service';
+import { HttpService } from '../../../http.service';
 
 @Component({
-  selector: 'app-sprint-cycle',
-  templateUrl: './sprint-cycle.component.html',
-  styleUrls: ['./sprint-cycle.component.css']
+  selector: 'app-sprint-planning',
+  templateUrl: './sprint-planning.component.html',
+  styleUrls: ['./sprint-planning.component.css']
 })
-export class SprintCycleComponent implements OnInit {
+export class SprintPlanningComponent implements OnInit {
 
   constructor(private _route: ActivatedRoute, private _httpService: HttpService, private _router: Router) { }
 

@@ -1,3 +1,17 @@
+Quiz 1 --
 db.quizzes.insert({title: "Quiz 1 - Roles - Based on the below description of a task, tell us whose task it is.",questions: [{question: "Accepts responsibility for identified tasks.",answers: [{answer: "Product Owner",correct: false},{answer: "Scrum Master",correct: false},{answer: "Development Team",correct: true},{answer: "All the above",correct: false}]},{question: "Manages stakeholder expectations",answers: [{answer: "Product Owner",correct: true},{answer: "Scrum Master",correct: false},{answer: "Development Team",correct: false},{answer: "All the above",correct: false}]},{question: "Embraces and lives the Five Scrum Values",answers: [{answer: "Product Owner",correct: false},{answer: "Scrum Master",correct: false},{answer: "Development Team",correct: false},{answer: "All the above",correct: true}]},{question: "Removes impediments",answers: [{answer: "Product Owner",correct: false},{answer: "Scrum Master",correct: true},{answer: "Development Team",correct: false},{answer: "All the above",correct: false}]},{question: "Responsible for the sprint backlog",answers: [{answer: "Product Owner",correct: false},{answer: "Scrum Master",correct: false},{answer: "Development Team",correct: true},{answer: "All the above",correct: false}]}]})
 
+Quiz 2 --
 db.quizzes.insert({title: "Quiz 2 - Sprint Events - Which part of a sprint do these happen?",questions: [{question: "Stakeholders, Customers, and users actively participate.",answers: [{answer: "Sprint Planning",correct: false},{answer: "Daily Scrum",correct: false},{answer: "Sprint Review",correct: true},{answer: "Sprint Retrospective",correct: false},{answer: "Backlog Refinement",correct: false}]},{question: "Impediments to activities are identified and stated by meeting participants.",answers: [{answer: "Sprint Planning",correct: false},{answer: "Daily Scrum",correct: true},{answer: "Sprint Review",correct: false},{answer: "Sprint Retrospective",correct: false},{answer: "Backlog Refinement",correct: false}]},{question: "Identifying what can be delivered in the Increment resulting from the next Sprint.",answers: [{answer: "Sprint Planning",correct: true},{answer: "Daily Scrum",correct: false},{answer: "Sprint Review",correct: false},{answer: "Sprint Retrospective",correct: false},{answer: "Backlog Refinement",correct: false}]},{question: "Activities center on adding details, estimates, or ordering of items.",answers: [{answer: "Sprint Planning",correct: false},{answer: "Daily Scrum",correct: false},{answer: "Sprint Review",correct: false},{answer: "Sprint Retrospective",correct: false},{answer: "Backlog Refinement",correct: true}]},{question: "Creation of a plan to address identified areas of improvement.",answers: [{answer: "Sprint Planning",correct: false},{answer: "Daily Scrum",correct: false},{answer: "Sprint Review",correct: false},{answer: "Sprint Retrospective",correct: true},{answer: "Backlog Refinement",correct: false}]}]})
+
+Video Overview
+db.videos.insert({title:"BeScrum_Overview",url:"https://vimeo.com/310845105"})
+
+Video Sprint Cycle
+db.videos.insert({title:"BeScrum_Sprint_Cycle",url:"https://vimeo.com/310845617"})
+
+Video Change a Tire Exercise
+db.videos.insert({title:"BeScrum_Exercise",url:"https://vimeo.com/310845738"})
+
+Video Scrum Meeting
+db.videos.insert({title:"BeScrum_Standup_Example",url:"https://vimeo.com/310845837"})

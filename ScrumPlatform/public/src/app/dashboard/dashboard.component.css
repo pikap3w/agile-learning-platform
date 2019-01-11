@@ -8,7 +8,7 @@ body {
 	background: #fafafa;
 }
 #component{
-	
+
 	width: 100%;
 }
 
@@ -69,6 +69,7 @@ a:focus {
     background: #7386D5;
     color: #fff;
     transition: all 0.3s;
+		overflow-y: scroll;
 }
 
 #sidebar.active {

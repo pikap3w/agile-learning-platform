@@ -103,6 +103,11 @@ a:focus {
 	display: block;
 }
 
+.active a:hover {
+	background: #fff;
+	color: #7386D5;
+}
+
 #sidebar ul li a:hover {
 	color: #7386D5;
 	background: #fff;
@@ -111,7 +116,7 @@ a:focus {
 #sidebar ul li.active > a,
 a[aria-expanded="true"] {
 	color: #fff;
-	/*background: #6d7fcc;*/
+	background: #6d7fcc;
 }
 
 #sidebarCollapse {
@@ -190,7 +195,7 @@ a.download {
 a.article,
 a.article:hover {
 	background: #6d7fcc !important;
-	color: #fff !important;
+	color: #7386D5 !important;
 }
 
 /* ---------------------------------------------------

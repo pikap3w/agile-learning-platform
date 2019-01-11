@@ -8,7 +8,7 @@ import { HttpService } from './http.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
-
+import { MalihuScrollbarModule } from 'ngx-malihu-scrollbar';
 import { LoginRegComponent } from './login-reg/login-reg.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { ExerciseComponent } from './exercise/exercise.component';
@@ -54,6 +54,7 @@ import { SprintRetrospectiveComponent } from './content/sprint-retrospective/spr
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    MalihuScrollbarModule.forRoot()
   ],
   providers: [HttpService],
   bootstrap: [AppComponent]

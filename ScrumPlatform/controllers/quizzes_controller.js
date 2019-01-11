@@ -4,8 +4,16 @@ var Quiz = require('../models/quiz');
 module.exports = {
 
   quizzes: function(req, res){
-    Quiz.find({}, function(err,quizzes){
-      res.json({err: err, quizzes: quizzes});
+    Quiz.find({}).exec(function(err,quizzes){
+      if(err){
+           console.log("Returned error", err);
+            // respond with JSON
+           res.json({err: err, quizzes: ""})
+        }
+        else {
+            // respond with JSON
+           res.json({err: "", quizzes: quizzes})
+        }
     });
   },
   new: function(req, res){
@@ -18,7 +26,7 @@ module.exports = {
     Quiz.findByIdAndRemove(req.params.id, function(err,quiz){
       res.json({err: err, quiz: quiz});
     });
-    
+
   },
   quiz_id: function(req, res){
     Quiz.findById(req.params.id, function(err,quiz){
@@ -56,7 +64,7 @@ module.exports = {
   //         }
   //       });
 
-        
+
   //     }
   //   });
   // },

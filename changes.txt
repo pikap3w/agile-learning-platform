@@ -1,0 +1,6 @@
+OVERVIEW-
+pa 4-Don't have 5 chapters
+PRODUCT OWNER-
+what they are wanting in their finished product
+Product Backlog of items that need to be done in order to deliver the finished product
+The Product Owner is the sole person responsible for managing the Product Backlog.

@@ -3,7 +3,7 @@ var path     = require('path'),
     mongoose = require('mongoose');
 
 // MAKE SURE YOU CHANGE THE NAME OF YOUR DB HERE!
-mongoose.connect('mongodb://localhost/user_db', { useNewUrlParser: true });
+mongoose.connect('mongodb://localhost/beScrum_db', { useNewUrlParser: true });
 
 // create a variable that points to the models folder
 var models_path = path.join(__dirname, './../models');

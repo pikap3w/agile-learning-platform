@@ -1,0 +1,79 @@
+{
+    title: "Quiz 1 - Roles - Based on the below description of a task, tell us whose task it is.",
+    questions: [{
+        question: "Accepts responsibility for identified tasks.",
+        answers: [{
+            answer: "Product Owner",
+            correct: false
+        },{
+            answer: "Scrum Master",
+            correct: false
+        },{
+            answer: "Development Team",
+            correct: true
+        },{
+            answer: "All the above",
+            correct: false
+        }]
+    },{
+        question: "Manages stakeholder expectations",
+        answers: [{
+            answer: "Product Owner",
+            correct: true
+        },{
+            answer: "Scrum Master",
+            correct: false
+        },{
+            answer: "Development Team",
+            correct: false
+        },{
+            answer: "All the above",
+            correct: false
+        }]
+    },{
+        question: "Embraces and lives the Five Scrum Values",
+        answers: [{
+            answer: "Product Owner",
+            correct: false
+        },{
+            answer: "Scrum Master",
+            correct: false
+        },{
+            answer: "Development Team",
+            correct: false
+        },{
+            answer: "All the above",
+            correct: true
+        }]
+    },{
+        question: "Removes impediments",
+        answers: [{
+            answer: "Product Owner",
+            correct: false
+        },{
+            answer: "Scrum Master",
+            correct: true
+        },{
+            answer: "Development Team",
+            correct: false
+        },{
+            answer: "All the above",
+            correct: false
+        }]
+    },{
+        question: "Responsible for the sprint backlog",
+        answers: [{
+            answer: "Product Owner",
+            correct: false
+        },{
+            answer: "Scrum Master",
+            correct: false
+        },{
+            answer: "Development Team",
+            correct: true
+        },{
+            answer: "All the above",
+            correct: false
+        }]
+    }]
+}

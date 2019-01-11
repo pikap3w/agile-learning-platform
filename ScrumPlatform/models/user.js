@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-let UserSchema = new mongoose.Schema({
+var UserSchema = new mongoose.Schema({
 	username: {type: String,
 		required: [true, "Username is required."],
 		unique: [true, "This username is already in the database."],
@@ -9,7 +9,6 @@ let UserSchema = new mongoose.Schema({
 	  password: {type: String,
 		required: [true, "Must have a password."],
 		minlength: [8, "Password must be at least 8 characters."],
-		maxlength: [8, "Passwords have a maximum of 32 characters."],
 		validate: {
 			validator: (value) => {
 				return /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,32}/.test(value);
@@ -19,5 +18,5 @@ let UserSchema = new mongoose.Schema({
 	}, {timestamps: true});
 
 mongoose.model('User', UserSchema);
-let User = mongoose.model('User');
+var User = mongoose.model('User');
 module.exports = User;

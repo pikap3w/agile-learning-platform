@@ -5,8 +5,8 @@ var videos_controller = require('../controllers/videos_controller');
 
 module.exports = function(app) {
   app.get('/users', users_controller.users);
-  // app.post('/register', users_controller.register);
-  // app.post('/login', users_controller.login);
+  app.post('/register', users_controller.register);
+  app.post('/login', users_controller.login);
   app.get('/api/quizzes', quizzes_controller.quizzes);
   app.get('/api/quizzes/:id', quizzes_controller.quiz_id);
   app.post('/api/quizzes', quizzes_controller.new);

@@ -7,6 +7,10 @@ body {
 	font-family: 'Poppins', sans-serif;
 	background: #fafafa;
 }
+#component{
+	
+	width: 100%;
+}
 
 p {
 	font-family: 'Poppins', sans-serif;

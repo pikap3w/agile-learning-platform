@@ -20,6 +20,9 @@ import { SprintComponent } from './content/sprint/sprint.component';
 import { SprintReviewComponent } from './content/sprint-review/sprint-review.component';
 import { SprintRetrospectiveComponent } from './content/sprint-retrospective/sprint-retrospective.component';
 
+import { ChangeTireComponent } from './exercise/change-tire/change-tire.component';
+import { OtherAgileComponent } from './exercise/other-agile/other-agile.component';
+import { StoriesExerciseComponent } from './exercise/stories-exercise/stories-exercise.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginRegComponent },
@@ -38,7 +41,11 @@ const routes: Routes = [
     { path: 'sprint-retrospective', component: SprintRetrospectiveComponent },
   ]},
   { path: 'quiz/:id', component: QuizComponent },
-  { path: 'exercise/:id', component: ExerciseComponent },
+  { path: 'exercise', component: ExerciseComponent, children: [
+    { path: 'change-tire', component: ChangeTireComponent },
+    { path: 'other-agile', component: OtherAgileComponent },
+    { path: 'stories-exercise', component: StoriesExerciseComponent },
+  ]},
   { path: 'about', component: AboutComponent },
   { path: '**', redirectTo: 'login' },
 

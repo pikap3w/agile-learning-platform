@@ -37,7 +37,7 @@ const routes: Routes = [
     { path: 'other-agile', component: OtherAgileComponent },
     { path: 'stories-exercise', component: StoriesExerciseComponent },
   ]},
-  { path: 'dashboard', component: DashboardComponent, children: [
+  { path: '', component: DashboardComponent, children: [
     { path: 'about', component: AboutComponent },
     { path: 'lesson', component: ContentComponent, children: [
       { path: 'overview', component: OverviewComponent },

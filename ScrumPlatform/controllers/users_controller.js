@@ -27,8 +27,8 @@ module.exports = {
             }
             else
             {
-              //req.session.user = user._id;
-              res.json({errors: "", data: user}); 
+              // req.session.user = user._id;
+              res.json({errors: "", data: user});
             }
           });
         });
@@ -47,7 +47,7 @@ module.exports = {
     User.findOne({username: req.body.username}, (err, this_user) =>
     {
       if(this_user)
-      {     
+      {
         bcrypt.compare(req.body.password, this_user.password).then((status) => {
           if(status == false)
           {
@@ -55,7 +55,7 @@ module.exports = {
           }
           else
           {
-            //req.session.user = this_user._id;
+            // req.session.user = this_user._id;
             res.json({this_user: this_user});
           }});
       }
@@ -68,5 +68,5 @@ module.exports = {
       }
     });
   }
-  
+
 }

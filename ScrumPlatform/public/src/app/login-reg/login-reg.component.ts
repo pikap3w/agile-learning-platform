@@ -14,6 +14,7 @@ export class LoginRegComponent implements OnInit {
  	login_errors = {};
   	dup_errors = {};
 
+
   constructor(private _route: ActivatedRoute, private _httpService: HttpService, private _router: Router) { }
 
   ngOnInit() {
@@ -28,7 +29,7 @@ export class LoginRegComponent implements OnInit {
   	var observable = this._httpService.register(this.entry);
   	observable.subscribe(data2 => {
   		if (data2['errors']){
-  			this.errors = data2['errors']
+  			this.errors = data2['errors'];
   		}
   		else {
   			this.entry = {username: "", password: "", password_conf: ""};
@@ -41,10 +42,10 @@ export class LoginRegComponent implements OnInit {
   	var observable = this._httpService.login(this.login_entry);
   	observable.subscribe(data2 => {
   		this.login_entry = {username: "", password: ""};
-      	//this._router.navigate(['/']);
+      	this._router.navigate(['lesson/overview']);
   	},
     (err) => {
-      var errors = data2['errors'];
+      let errors = err.json();
       if (errors.errmsg)
       {
         this.dup_errors = {err: "Duplicate found"};

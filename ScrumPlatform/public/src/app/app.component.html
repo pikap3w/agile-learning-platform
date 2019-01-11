@@ -40,19 +40,19 @@
 					Overview</a>
 				<ul class="collapse list-unstyled" id="OverviewSubmenu">
 					<li>
-						<a href="#">Overview</a>
+						<a [routerLink]="['/lesson/overview']">Overview</a>
 					</li>
 					<li>
-						<a href="#">Product Owner</a>
+						<a [routerLink]="['/lesson/product-owner']">Product Owner</a>
 					</li>
 					<li>
-						<a href="#">Scrum Master</a>
+						<a [routerLink]="['/lesson/scrum-master']">Scrum Master</a>
 					</li>
 					<li>
-						<a href="#">Dev Team</a>
+						<a [routerLink]="['/lesson/dev-team']">Dev Team</a>
 					</li>
 					<li>
-						<a href="#">Quiz 1</a>
+						<a >Quiz 1</a>
 					</li>
 				</ul>
 			</li>
@@ -62,40 +62,40 @@
 				<a href="#CycleSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Scrum Cycle</a>
 				<ul class="collapse list-unstyled" id="CycleSubmenu">
 					<li>
-						<a href="#">Sprint Cycle</a>
+						<a [routerLink]="['/lesson/sprint-cycle']">Sprint Cycle</a>
 					</li>
 					<li>
-						<a href="#">Backlog Refinement</a>
+						<a [routerLink]="['/lesson/backlog-refinement']">Backlog Refinement</a>
 					</li>
 					<li>
-						<a href="#">User Stories</a>
+						<a [routerLink]="['/lesson/user-stories']">User Stories</a>
 					</li>
 					<li>
-						<a href="#">Exercise: User Stories</a>
+						<a [routerLink]="['/lesson/']">Exercise: User Stories</a>
 					</li>
 					<li>
-						<a href="#">Sprint Planning</a>
+						<a [routerLink]="['/lesson/sprint-planning']">Sprint Planning</a>
 					</li>
 					<li>
-						<a href="#">Exercise: Change a Tire</a>
+						<a [routerLink]="['/lesson/']">Exercise: Change a Tire</a>
 					</li>
 					<li>
-						<a href="#">Daily Scrum</a>
+						<a [routerLink]="['/lesson/daily-scrum']">Daily Scrum</a>
 					</li>
 					<li>
-						<a href="#">Sprint</a>
+						<a [routerLink]="['/lesson/sprint']">Sprint</a>
 					</li>
 					<li>
-						<a href="#">Sprint Review</a>
+						<a [routerLink]="['/lesson/sprint-review']">Sprint Review</a>
 					</li>
 					<li>
-						<a href="#">Sprint Retrospective</a>
+						<a [routerLink]="['/lesson/sprint-retrospective']">Sprint Retrospective</a>
 					</li>
 					<li>
-						<a href="#">Quiz 2</a>
+						<a [routerLink]="['/lesson/']">Quiz 2</a>
 					</li>
 					<li>
-						<a href="#">Exercise: Other Agile Methods</a>
+						<a [routerLink]="['/lesson/']">Exercise: Other Agile Methods</a>
 					</li>
 				</ul>
 			</li>
@@ -117,7 +117,7 @@
 				</button>
 			</div>
 		</nav>
-		<router-outlet></router-outlet>
+		<router-outlet id="component"></router-outlet>
 	</div>
 </div>
 

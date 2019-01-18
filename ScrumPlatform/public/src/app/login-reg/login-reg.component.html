@@ -52,7 +52,7 @@
 								<small
 									class="errors"
 									[hidden]="password.valid && !login_errors.password || (password.untouched && !form.submitted)">
-									Passwords are required and must have at least 8 characters.
+									Passwords are required and must have at least 8 characters, with 1 number and 1 uppercase letter.
 								</small>
 							</div>
 						</div>
@@ -85,8 +85,16 @@
 									[(ngModel)] = "entry.username"
 									#username="ngModel">
 								<small
+<<<<<<< HEAD
+									class="dup_errors"
+									[hidden]="(username.valid && !dup_errors.err) || (username.untouched && !form.submitted) || username.invalid">
+									Duplicate found, please use another username.
+								</small>
+								<small
+=======
+>>>>>>> upstream/master
 									class="errors"
-									[hidden]="username.valid && !errors.username || (username.untouched && !form.submitted)">
+									[hidden]="(username.valid && !errors.username) || (username.untouched && !form.submitted)">
 									Usernames are required and must have between 3 and 20 characters.
 								</small>
 							</div>
@@ -105,7 +113,7 @@
 								<small
 									class="errors"
 									[hidden]="password.valid && !errors.password || (password.untouched && !form.submitted)">
-									Passwords are required and must have at least 8 characters.
+									Passwords are required and must have at least 8 characters, with 1 number and 1 uppercase letter.
 								</small>
 							</div>
 						</div>
@@ -123,7 +131,7 @@
 								<small
 									class="errors"
 									[hidden]="password_conf.valid && !errors.password_conf || (password_conf.untouched && !form.submitted)">
-									Passwords are required and must have at least 8 characters.
+									Passwords are required and must have at least 8 characters, with 1 number and 1 uppercase letter.
 								</small>
 							</div>
 						</div>

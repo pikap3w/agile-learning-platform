@@ -11,9 +11,9 @@ var UserSchema = new mongoose.Schema({
 		minlength: [8, "Password must be at least 8 characters."],
 		validate: {
 			validator: (value) => {
-				return /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,32}/.test(value);
+				return /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d$@$!%*?&]{8,32}/.test(value);
 		},
-		message: "Password failed validation, you must have at least 1 number, uppercase and special character."
+		message: "Password failed validation, you must have at least 1 number and uppercase character."
 		}}
 	}, {timestamps: true});
 

@@ -28,31 +28,36 @@ export class LoginRegComponent implements OnInit {
   registerButton() {
   	var observable = this._httpService.register(this.entry);
   	observable.subscribe(data2 => {
-  		if (data2['errors']){
-  			this.errors = data2['errors'];
-  		}
-  		else {
-  			this.entry = {username: "", password: "", password_conf: ""};
-  			return this._router.navigate(['lesson/overview']);
-  		}
-  	});
+      this.entry = {username: "", password: "", password_conf: ""};
+      this._router.navigate(['/lesson/overview']);
+    },
+    (err) => {
+      if (err.errmsg)
+      {
+        this.dup_errors = {err: "Duplicate found"};
+      }
+      else
+      {
+        this.errors = err;
+      }
+      this.entry = {username: "", password: "", password_conf: ""};
+    });
   }
 
   loginButton() {
   	var observable = this._httpService.login(this.login_entry);
   	observable.subscribe(data2 => {
   		this.login_entry = {username: "", password: ""};
-      	return this._router.navigate(['lesson/overview']);
+      this._router.navigate(['lesson/overview']);
   	},
     (err) => {
-      let errors = err.json();
-      if (errors.errmsg)
+      if (err.errmsg)
       {
         this.dup_errors = {err: "Duplicate found"};
       }
       else
       {
-        this.login_errors = errors;
+        this.login_errors = err;
       }
       this.login_entry = {username: "", password: ""};
     });

@@ -11,7 +11,7 @@ export class HttpService {
 
 
   getQuizzes(){
-    return this._http.get('/api/quizzes')
+    return this._http.get('/api/quizzes');
   }
 
   register(info){

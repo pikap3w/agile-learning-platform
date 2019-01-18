@@ -1,30 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-	<title>BeScrum Learning Platform</title>
-
-	<!-- Bootstrap CSS CDN -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-	      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-	<!-- Scrollbar Custom CSS -->
-	<link rel="stylesheet"
-	      href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-
-	<!-- Font Awesome JS -->
-	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
-	        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
-	        crossorigin="anonymous"></script>
-	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
-	        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
-	        crossorigin="anonymous"></script>
-
-</head>
-
 <body>
 
 <div class="wrapper">
@@ -106,17 +82,18 @@
 			</li>
 		</ul>
 	</nav>
+
 	<div id="content">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container-fluid">
-				<button type="button" id="sidebarCollapse" class="navbar-btn">
-					<!--<i class="fas fa-bars"></i>-->
-					<span></span>
-					<span></span>
-					<span></span>
-				</button>
+		<div class="topbar row">
+			<div class="col text-center">
+				<h3 class="logo d-inline-block text-center">[Logo Here]</h3>
+				<h3 class="username d-inline-block float-left">Welcome [Username Here]</h3>
+				<a class="float-right" href="google.com">
+					<h3>logout</h3>
+				</a> 
 			</div>
-		</nav>
+		</div>
+
 		<router-outlet id="component"></router-outlet>
 	</div>
 </div>

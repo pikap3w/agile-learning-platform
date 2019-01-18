@@ -1,30 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-	<title>BeScrum Learning Platform</title>
-
-	<!-- Bootstrap CSS CDN -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-	      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-	<!-- Scrollbar Custom CSS -->
-	<link rel="stylesheet"
-	      href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-
-	<!-- Font Awesome JS -->
-	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
-	        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
-	        crossorigin="anonymous"></script>
-	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
-	        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
-	        crossorigin="anonymous"></script>
-
-</head>
-
 <body>
 
 <div class="wrapper">
@@ -40,19 +16,19 @@
 					Overview</a>
 				<ul class="collapse list-unstyled" id="OverviewSubmenu">
 					<li>
-						<a [routerLink]="['/lesson/overview']">Overview</a>
+						<a [routerLink]="['/dashboard/lesson/overview']">Overview</a>
 					</li>
 					<li>
-						<a [routerLink]="['/lesson/product-owner']">Product Owner</a>
+						<a [routerLink]="['/dashboard/lesson/product-owner']">Product Owner</a>
 					</li>
 					<li>
-						<a [routerLink]="['/lesson/scrum-master']">Scrum Master</a>
+						<a [routerLink]="['/dashboard/lesson/scrum-master']">Scrum Master</a>
 					</li>
 					<li>
-						<a [routerLink]="['/lesson/dev-team']">Dev Team</a>
+						<a [routerLink]="['/dashboard/lesson/dev-team']">Dev Team</a>
 					</li>
 					<li>
-						<a [routerLink]="['/quiz/1']">Quiz 1</a>
+						<a [routerLink]="['/dashboard/quiz/1']">Quiz 1</a>
 					</li>
 				</ul>
 			</li>
@@ -62,61 +38,62 @@
 				<a href="#CycleSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Scrum Cycle</a>
 				<ul class="collapse list-unstyled" id="CycleSubmenu">
 					<li>
-						<a [routerLink]="['/lesson/sprint-cycle']">Sprint Cycle</a>
+						<a [routerLink]="['/dashboard/lesson/sprint-cycle']">Sprint Cycle</a>
 					</li>
 					<li>
-						<a [routerLink]="['/lesson/backlog-refinement']">Backlog Refinement</a>
+						<a [routerLink]="['/dashboard/lesson/backlog-refinement']">Backlog Refinement</a>
 					</li>
 					<li>
-						<a [routerLink]="['/lesson/user-stories']">User Stories</a>
+						<a [routerLink]="['/dashboard/lesson/user-stories']">User Stories</a>
 					</li>
 					<li>
-						<a [routerLink]="['/exercise/stories-exercise']">Exercise: User Stories</a>
+						<a [routerLink]="['/dashboard/exercise/stories-exercise']">Exercise: User Stories</a>
 					</li>
 					<li>
-						<a [routerLink]="['/lesson/sprint-planning']">Sprint Planning</a>
+						<a [routerLink]="['/dashboard/lesson/sprint-planning']">Sprint Planning</a>
 					</li>
 					<li>
-						<a [routerLink]="['/exercise/change-tire']">Exercise: Change a Tire</a>
+						<a [routerLink]="['/dashboard/exercise/change-tire']">Exercise: Change a Tire</a>
 					</li>
 					<li>
-						<a [routerLink]="['/lesson/daily-scrum']">Daily Scrum</a>
+						<a [routerLink]="['/dashboard/lesson/daily-scrum']">Daily Scrum</a>
 					</li>
 					<li>
-						<a [routerLink]="['/lesson/sprint']">Sprint</a>
+						<a [routerLink]="['/dashboard/lesson/sprint']">Sprint</a>
 					</li>
 					<li>
-						<a [routerLink]="['/lesson/sprint-review']">Sprint Review</a>
+						<a [routerLink]="['/dashboard/lesson/sprint-review']">Sprint Review</a>
 					</li>
 					<li>
-						<a [routerLink]="['/lesson/sprint-retrospective']">Sprint Retrospective</a>
+						<a [routerLink]="['/dashboard/lesson/sprint-retrospective']">Sprint Retrospective</a>
 					</li>
 					<li>
-						<a [routerLink]="['/quiz/2']">Quiz 2</a>
+						<a [routerLink]="['/dashboard/quiz/2']">Quiz 2</a>
 					</li>
 					<li>
-						<a [routerLink]="['/exercise/other-agile']">Exercise: Other Agile Methods</a>
+						<a [routerLink]="['/dashboard/exercise/other-agile']">Exercise: Other Agile Methods</a>
 					</li>
 				</ul>
 			</li>
 		</ul>
 		<ul class="list-unstyled components">
-			<li class="active">
+			<li class="active mb-4">
 				<a href="#">About Us</a>
 			</li>
 		</ul>
 	</nav>
+
 	<div id="content">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container-fluid">
-				<button type="button" id="sidebarCollapse" class="navbar-btn">
-					<!--<i class="fas fa-bars"></i>-->
-					<span></span>
-					<span></span>
-					<span></span>
-				</button>
+		<div class="topbar row">
+			<div class="col text-center">
+				<h3 class="logo d-inline-block text-center">[Logo Here]</h3>
+				<h3 class="username d-inline-block float-left">Welcome [Username Here]</h3>
+				<a class="float-right" href="google.com">
+					<h3>logout</h3>
+				</a> 
 			</div>
-		</nav>
+		</div>
+
 		<router-outlet id="component"></router-outlet>
 	</div>
 </div>

@@ -57,7 +57,7 @@ module.exports = {
           else
           {
             req.session.user = this_user._id;
-            //res.redirect('/lesson/overview');
+            res.redirect('/users');
           }});
       }
       else

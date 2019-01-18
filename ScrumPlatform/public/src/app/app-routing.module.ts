@@ -6,6 +6,8 @@ import { ExerciseComponent } from './dashboard/exercise/exercise.component';
 import { LoginRegComponent } from './login-reg/login-reg.component';
 import { QuizComponent } from './dashboard/quiz/quiz.component';
 
+import { HomeComponent } from './home/home.component';
+import { GlossaryComponent } from './dashboard/glossary/glossary.component';
 
 
 import { ChangeTireComponent } from './dashboard/exercise/change-tire/change-tire.component';
@@ -31,9 +33,10 @@ import { SprintRetrospectiveComponent } from './dashboard/content/sprint-retrosp
 
 const routes: Routes = [
   { path: 'login', component: LoginRegComponent },
-
-  { path: '', component: DashboardComponent, children: [
+  { path: '', component: HomeComponent },
+  { path: 'dashboard', component: DashboardComponent, children: [
     { path: 'about', component: AboutComponent },
+    { path: 'glossary', component: GlossaryComponent },
     { path: 'lesson', component: ContentComponent, children: [
       { path: 'overview', component: OverviewComponent },
       { path: 'product-owner', component: ProductOwnerComponent },
@@ -55,12 +58,12 @@ const routes: Routes = [
       { path: 'stories-exercise', component: StoriesExerciseComponent },
     ]},
   ]},
-  { path: '**', redirectTo: 'login' },
+  { path: '**', redirectTo: '' },
 
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,{scrollPositionRestoration: 'enabled'} )],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

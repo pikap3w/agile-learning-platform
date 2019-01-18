@@ -10,16 +10,13 @@ import { HttpService } from '../../http.service';
 export class QuizComponent implements OnInit {
   quiz: Object;
   quiz_id: Number;
+  grade: Boolean;
+  indexNum: Number;
 
   constructor(private _route: ActivatedRoute, private _httpService: HttpService, private _router: Router) { }
 
   ngOnInit() {
-    // if(params.id == 1){
-    //   quiz1();
-    // }
-    // if(params.id == 2){
-    //   quiz2();
-    // }
+    this.indexNum = 0;
     this._route.params.subscribe(params => {
      console.log(`The parent params: ${params}`);
      this.quiz_id = params.id;
@@ -28,6 +25,7 @@ export class QuizComponent implements OnInit {
   }
 
   quizzes(num){
+    this.grade = false;
     let obs = this._httpService.getQuizzes();
     obs.subscribe(data => {
       console.log(data);
@@ -41,6 +39,11 @@ export class QuizComponent implements OnInit {
       }
       // this._router.navigate(['login'])
     })
+  }
+
+  answers(something){
+    this.grade = true;
+    console.log(something)
   }
 
 }

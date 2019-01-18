@@ -6,14 +6,15 @@ var bodyParser = require('body-parser');
 module.exports = {
 
   users: function(req, res){
-    var users = User.find({}, function(err, users) {
-      if (err) {
-        res.redirect('/users')
-      }
-      else {
-        res.render('index', {all_users: users});
-      }
-    });
+    // var users = User.find({}, function(err, users) {
+    //   if (err) {
+    //     res.redirect('/users')
+    //   }
+    //   else {
+    //     res.render('index', {all_users: users});
+    //   }
+    // });
+    res.json({message: "Hello World!"})
   },
 
   register: function(req, res){
@@ -31,7 +32,7 @@ module.exports = {
             else
             {
               req.session.user = user._id;
-              res.redirect('/lesson/overview');
+              res.redirect('/users');
             }
           });
         });

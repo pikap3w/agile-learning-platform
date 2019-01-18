@@ -29,18 +29,22 @@ export class LoginRegComponent implements OnInit {
   	var observable = this._httpService.register(this.entry);
   	observable.subscribe(data2 => {
       this.entry = {username: "", password: "", password_conf: ""};
+      console.log("A")
       this._router.navigate(['/lesson/overview']);
     },
     (err) => {
       console.log(err);
       if (err.errmsg)
       {
+        console.log("B")
         this.dup_errors = {err: "Duplicate found"};
       }
       else
       {
+        console.log("C")
         this.errors = err;
       }
+      console.log("D")
       this.entry = {username: "", password: "", password_conf: ""};
     });
   }

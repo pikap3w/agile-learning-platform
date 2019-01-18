@@ -1,5 +1,5 @@
 <head>
-	
+
 	<link rel="stylesheet" type="text/css"
 	      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 	<title>Login - Scrum Learning Platform</title>
@@ -21,15 +21,15 @@
 						</div>
 						<div class="row mt-4">
 							<div class="col">
-								<input 
-									type="text" 
-									class='form-control' 
-									placeholder="Username" 
+								<input
+									type="text"
+									class='form-control'
+									placeholder="Username"
 									required
 									minlength="3"
 									maxlength="20"
-									name = "login_entry.username" 
-									[(ngModel)] = "login_entry.username" 
+									name = "login_entry.username"
+									[(ngModel)] = "login_entry.username"
 									#username="ngModel">
 								<small
 									class="errors"
@@ -40,14 +40,14 @@
 						</div>
 						<div class="row mt-4">
 							<div class="col">
-								<input 
-									type="password" 
-									class='form-control' 
-									placeholder="Password" 
+								<input
+									type="password"
+									class='form-control'
+									placeholder="Password"
 									required
-									name = "login_entry.password" 
-									minlength="8" 
-									[(ngModel)] = "login_entry.password" 
+									name = "login_entry.password"
+									minlength="8"
+									[(ngModel)] = "login_entry.password"
 									#password="ngModel">
 								<small
 									class="errors"
@@ -73,22 +73,17 @@
 						</div>
 						<div class="row mt-4">
 							<div class="col">
-								<input 
-									type="text" 
-									class='form-control' 
-									placeholder="Username" 
+								<input
+									type="text"
+									class='form-control'
+									placeholder="Username"
 									required
 									name = "entry.username"
 									minlength="3"
-									maxlength="20" 
+									maxlength="20"
 									unique=true
-									[(ngModel)] = "entry.username" 
+									[(ngModel)] = "entry.username"
 									#username="ngModel">
-								<small
-									class="dup_errors"
-									[hidden]="username.invalid && !dup_errors.err || (username.untouched && !form.submitted)">
-									Duplicate found, please use another username.
-								</small>
 								<small
 									class="errors"
 									[hidden]="username.valid && !errors.username || (username.untouched && !form.submitted)">
@@ -98,14 +93,14 @@
 						</div>
 						<div class="row mt-3">
 							<div class="col">
-								<input 
-									type="password" 
-									class='form-control' 
-									placeholder="Password" 
+								<input
+									type="password"
+									class='form-control'
+									placeholder="Password"
 									required
 									name = "entry.password"
-									minlength="8" 
-									[(ngModel)] = "entry.password" 
+									minlength="8"
+									[(ngModel)] = "entry.password"
 									#password="ngModel">
 								<small
 									class="errors"
@@ -116,14 +111,14 @@
 						</div>
 						<div class="row mt-3">
 							<div class="col">
-								<input 
-									type="password" 
-									class='form-control' 
-									placeholder="Re-enter Password" 
+								<input
+									type="password"
+									class='form-control'
+									placeholder="Re-enter Password"
 									required
 									name = "entry.password_conf"
-									minlength="8" 
-									[(ngModel)] = "entry.password_conf" 
+									minlength="8"
+									[(ngModel)] = "entry.password_conf"
 									#password_conf="ngModel">
 								<small
 									class="errors"

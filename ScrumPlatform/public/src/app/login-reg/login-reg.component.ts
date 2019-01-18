@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Params, Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { HttpService } from '../http.service';
 
 @Component({
@@ -33,7 +33,7 @@ export class LoginRegComponent implements OnInit {
   		}
   		else {
   			this.entry = {username: "", password: "", password_conf: ""};
-      		this._router.navigate(['lesson/overview']);
+  			return this._router.navigate(['lesson/overview']);
   		}
   	});
   }
@@ -42,7 +42,7 @@ export class LoginRegComponent implements OnInit {
   	var observable = this._httpService.login(this.login_entry);
   	observable.subscribe(data2 => {
   		this.login_entry = {username: "", password: ""};
-      	this._router.navigate(['lesson/overview']);
+      	return this._router.navigate(['lesson/overview']);
   	},
     (err) => {
       let errors = err.json();

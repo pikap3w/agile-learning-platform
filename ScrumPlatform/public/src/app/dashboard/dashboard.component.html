@@ -106,17 +106,18 @@
 			</li>
 		</ul>
 	</nav>
+
 	<div id="content">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container-fluid">
-				<button type="button" id="sidebarCollapse" class="navbar-btn">
-					<!--<i class="fas fa-bars"></i>-->
-					<span></span>
-					<span></span>
-					<span></span>
-				</button>
+		<div class="topbar row">
+			<div class="col text-center">
+				<h3 class="logo d-inline-block text-center">[Logo Here]</h3>
+				<h3 class="username d-inline-block float-left">Welcome [Username Here]</h3>
+				<a class="float-right" href="google.com">
+					<h3>logout</h3>
+				</a> 
 			</div>
-		</nav>
+		</div>
+
 		<router-outlet id="component"></router-outlet>
 	</div>
 </div>

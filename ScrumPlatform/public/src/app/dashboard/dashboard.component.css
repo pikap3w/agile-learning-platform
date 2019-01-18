@@ -10,6 +10,31 @@ body {
 #component{
 	/*width: 100%;*/
 }
+#topbar{
+	position: fixed;
+	width: 100%;
+	padding-top: 100px;
+	z-index: 1;
+}
+.logo{
+	position: absolute;
+	left: 45%;
+}
+.username{
+	position: relative;
+}
+.topbar {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	height: 85px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  margin: 0px;
+  background-color: white;
+  z-index: 1
+}
 
 p {
 	font-family: 'Poppins', sans-serif;
@@ -210,6 +235,7 @@ a.article:hover {
 	position: absolute;
 	top: 0;
 	right: 0;
+	padding-top: 0px;
 }
 
 #content.active {

@@ -1,4 +1,7 @@
 var User = require('../models/user');
+var bcrypt = require('bcryptjs');
+var session = require('express-session');
+var bodyParser = require('body-parser');
 
 module.exports = {
 
@@ -14,7 +17,7 @@ module.exports = {
   },
 
   register: function(req, res){
-    if ((req.body.password == req.body.password_conf) && (req.body.password.length > 7) && (req.body.password_conf.length > 7)){
+    if ((req.body.password == req.body.password_conf) && (req.body.password.length > 7) && (req.body.password_conf.length > 7) && (req.body.username.length > 2) && (req.body.username.length < 21)){
       bcrypt.genSalt(10, (err, salt) => {
         bcrypt.hash(req.body.password, salt, (err, coded) => {
           var new_pw = coded;
@@ -23,12 +26,12 @@ module.exports = {
           user.save((err) => {
             if(err)
             {
-              res.json({errors: err, data: ""});
+              return res.status(400).json(err);
             }
             else
             {
-              // req.session.user = user._id;
-              res.json({errors: "", data: user});
+              req.session.user = user._id;
+              res.redirect('/lesson/overview');
             }
           });
         });
@@ -36,10 +39,7 @@ module.exports = {
     }
     else
     {
-      var wrong = {message: "Passwords must match and have at least 8 characters."};
-      var err = [];
-      err.push(wrong);
-      res.json({errors: err, data: ""});
+      return res.status(400);
     }
   },
 
@@ -51,20 +51,17 @@ module.exports = {
         bcrypt.compare(req.body.password, this_user.password).then((status) => {
           if(status == false)
           {
-            res.json({errors: this_user.errors});
+            return res.status(400).json(err);
           }
           else
           {
-            // req.session.user = this_user._id;
-            res.json({this_user: this_user});
+            req.session.user = this_user._id;
+            //res.redirect('/lesson/overview');
           }});
       }
       else
       {
-        var invalid = {message: "Invalid login information."};
-        var errors = [];
-        errors.push(invalid);
-        res.render('index', {errors: err});
+        return res.status(400);
       }
     });
   }

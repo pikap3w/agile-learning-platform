@@ -33,6 +33,8 @@ import { DailyScrumComponent } from './dashboard/content/daily-scrum/daily-scrum
 import { SprintComponent } from './dashboard/content/sprint/sprint.component';
 import { SprintReviewComponent } from './dashboard/content/sprint-review/sprint-review.component';
 import { SprintRetrospectiveComponent } from './dashboard/content/sprint-retrospective/sprint-retrospective.component';
+import { HomeComponent } from './home/home.component';
+import { GlossaryComponent } from './dashboard/glossary/glossary.component';
 
 
 
@@ -59,7 +61,9 @@ import { SprintRetrospectiveComponent } from './dashboard/content/sprint-retrosp
     ChangeTireComponent,
     OtherAgileComponent,
     StoriesExerciseComponent,
-    DashboardComponent
+    DashboardComponent,
+    HomeComponent,
+    GlossaryComponent
   ],
   imports: [
     BrowserModule,

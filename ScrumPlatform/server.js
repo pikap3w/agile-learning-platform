@@ -3,7 +3,6 @@ const express = require('express'),
 		path = require('path'),
 		bodyParser = require('body-parser'),
 		port = 8000;
-		bcrypt = require('bcrypt')
 
 		require('./config/mongoose');
 

@@ -7,3 +7,13 @@ body {
 *{
 	font-family: 'Poppins', sans-serif;
 }
+
+
+iframe {
+    margin: auto;
+    width: 80%;
+    border: 0;
+    padding: 5px;
+    display: block;
+  }
+  

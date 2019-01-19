@@ -12,6 +12,10 @@ var QuizSchema = new mongoose.Schema({
       type: String,
       default: '',
     },
+    selected: {
+        type: Number,
+        default: -1,
+    },
     answers: [{
         answer: {
           type: String,

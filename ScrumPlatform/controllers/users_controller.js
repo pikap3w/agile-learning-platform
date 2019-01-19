@@ -59,7 +59,7 @@ module.exports = {
             req.session.user = this_user._id;
             res.json({
               err: err,
-              user: user
+              this_user: this_user
             });
           }
         });

@@ -13,7 +13,7 @@
 
             <!--Login Form-->
             <input type='checkbox' id='form-switch'>
-            <form id='login-form' (submit)="loginButton($event)" #form="ngForm">
+            <form id='login-form' (submit)="loginButton($event)" #login_form="ngForm">
               <div class="row">
                 <div class="col">
                   <h1>Log In</h1>
@@ -24,8 +24,8 @@
                   <input type="text" class='form-control' placeholder="Username" required minlength="3"
                     maxlength="20" name="login_entry.username" [(ngModel)]="login_entry.username"
                     #username="ngModel">
-                  <small class="text-danger" [hidden]="username.valid && !login_errors.username || (username.untouched && !form.submitted)">
-                    Usernames must have between 3 and 20 characters.
+                  <small class="text-danger" [hidden]="username.valid && !login_errors.username || (username.untouched && !login_form.submitted)">
+                    Usernames must be between 3 and 20 characters.
                   </small>
                 </div>
               </div>
@@ -33,14 +33,14 @@
                 <div class="col">
                   <input type="password" class='form-control' placeholder="Password" required name="login_entry.password"
                     minlength="8" [(ngModel)]="login_entry.password" #password="ngModel">
-                  <small class="text-danger" [hidden]="password.valid && !login_errors.password || (password.untouched && !form.submitted)">
-                    Passwords must have at least 8 characters, with 1 number and 1 uppercase letter.
+                  <small class="text-danger" [hidden]="password.valid && !login_errors.password || (password.untouched && !login_form.submitted)">
+                    Passwords must be at least 8 characters, with 1 number and 1 uppercase letter.
                   </small>
                 </div>
               </div>
               <div class="row mt-4">
                 <div class="col">
-                  <button type='submit' class="btn btn-outline-secondary">Login</button>
+                  <button type='submit' class="btn btn-outline-secondary" [disabled]="!login_form.valid">Login</button>
                   <label for='form-switch'><span class="">Register</span></label>
                 </div>
               </div>
@@ -61,7 +61,7 @@
                     Duplicate found, please use another username.
                   </small>
                   <small class="text-danger" [hidden]="(username.valid && !errors.username) || (username.untouched && !form.submitted)">
-                    Usernames must have between 3 and 20 characters.
+                    Usernames must be between 3 and 20 characters.
                   </small>
                 </div>
               </div>
@@ -70,7 +70,7 @@
                   <input type="password" class='form-control' placeholder="Password" required name="entry.password"
                     minlength="8" [(ngModel)]="entry.password" #password="ngModel">
                   <small class="text-danger" [hidden]="password.valid && !errors.password || (password.untouched && !form.submitted)">
-                    Passwords must have at least 8 characters, with 1 number and 1 uppercase
+                    Passwords must be at least 8 characters, with 1 number and 1 uppercase
                     letter.
                   </small>
                 </div>
@@ -81,7 +81,7 @@
                     required name="entry.password_conf" minlength="8" [(ngModel)]="entry.password_conf"
                     #password_conf="ngModel">
                   <small class="text-danger" [hidden]="password_conf.valid && !errors.password_conf || (password_conf.untouched && !form.submitted)">
-                    Passwords must have at least 8 characters, with 1 number and 1 uppercase
+                    Passwords must be at least 8 characters, with 1 number and 1 uppercase
                     letter.
                   </small>
                 </div>

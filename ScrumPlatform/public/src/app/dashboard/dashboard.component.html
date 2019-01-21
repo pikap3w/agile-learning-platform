@@ -6,8 +6,9 @@
 <div class="wrapper">
 	<!-- Sidebar  -->
 	<nav id="sidebar">
-		<div class="sidebar-header">
-			<h3>BeScrum</h3>
+		<div class="sidebar-header align-items-center">
+			<h3 class='d-inline-block'>BeScrum</h3>
+			<img src="assets/bescrum-logo-3.svg" alt="Scrum" class="img-fluid d-inline-block" style="height: 50px">
 		</div>
 
 		<ul class="list-unstyled components">
@@ -84,14 +85,17 @@
 	</nav>
 
 	<div id="content">
-		<div class="topbar row">
-			<div class="col text-center">
-				<h3 class="logo d-inline-block text-center">[Logo Here]</h3>
-				<h3 class="username d-inline-block float-left">Welcome [Username Here]</h3>
-				<a class="float-right" href="/">
-					<h6 class="text-danger">logout</h6>
-				</a> 
-			</div>
+
+		<div class="align-items-center row">
+			<h3 class="d-inline-block col-4">[User Name]</h3>
+		  <div class="d-inline-block text-center col-4">
+		    <img src="assets/bescrum-logo.svg" alt="Scrum" style="height: 100px">
+		  </div>
+	    <div class="col-4 d-inline-block">
+	      <a class='float-right' [routerLink]="['/login']">
+	        <h6 class='text-danger'>logout</h6>
+	      </a>
+	    </div>
 		</div>
 
 		<router-outlet id="component"></router-outlet>

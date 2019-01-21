@@ -32,7 +32,6 @@ export class LoginRegComponent implements OnInit {
       this._router.navigate(['/dashboard/lesson/overview']);
     },
       (err) => {
-        console.log(err.error.errmsg)
         if (err.error.errmsg) {
           this.dup_errors = { err: "Duplicate found" };
         }

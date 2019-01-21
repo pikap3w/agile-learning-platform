@@ -25,7 +25,7 @@
                     maxlength="20" name="login_entry.username" [(ngModel)]="login_entry.username"
                     #username="ngModel">
                   <small class="text-danger" [hidden]="username.valid && !login_errors.username || (username.untouched && !login_form.submitted)">
-                    Usernames must be between 3 and 20 characters.
+                    Usernames must be 3-20 characters.
                   </small>
                 </div>
               </div>
@@ -57,11 +57,11 @@
                 <div class="col">
                   <input type="text" class='form-control' placeholder="Username" required name="entry.username"
                     minlength="3" maxlength="20" unique=true [(ngModel)]="entry.username" #username="ngModel">
-                  <small class="dup_errors" [hidden]="(username.valid && !dup_errors.err) || (username.untouched && !form.submitted) || username.invalid">
+                  <small class="text-warning" [hidden]="!dup_errors.err || (username.untouched && !form.submitted) || username.valid">
                     Duplicate found, please use another username.
                   </small>
                   <small class="text-danger" [hidden]="(username.valid && !errors.username) || (username.untouched && !form.submitted)">
-                    Usernames must be between 3 and 20 characters.
+                    Usernames must be 3-20 characters.
                   </small>
                 </div>
               </div>

@@ -79,3 +79,11 @@ label {
 #form-switch:checked ~ #login-form {
 	display: none
 }
+
+.text-danger, .text-warning {
+	font-size: 75%;
+}
+
+small {
+	display: block;
+}

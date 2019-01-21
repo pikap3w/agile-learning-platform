@@ -32,7 +32,8 @@ export class LoginRegComponent implements OnInit {
       this._router.navigate(['/dashboard/lesson/overview']);
     },
       (err) => {
-        if (err.errmsg) {
+        console.log(err.error.errmsg)
+        if (err.error.errmsg) {
           this.dup_errors = { err: "Duplicate found" };
         }
         else {
@@ -49,12 +50,7 @@ export class LoginRegComponent implements OnInit {
       this._router.navigate(['/dashboard/lesson/overview']);
     },
       (err) => {
-        if (err.errmsg) {
-          this.dup_errors = { err: "Duplicate found" };
-        }
-        else {
-          this.login_errors = err;
-        }
+        this.login_errors = err;
         this.login_entry = { username: "", password: "" };
       });
   }

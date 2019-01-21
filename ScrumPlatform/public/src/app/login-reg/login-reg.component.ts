@@ -44,9 +44,11 @@ export class LoginRegComponent implements OnInit {
 
   loginButton() {
     var observable = this._httpService.login(this.login_entry);
+    console.log("AAAAAaaaaaaaaaaaa");
     observable.subscribe(data2 => {
       this.login_entry = { username: "", password: "" };
       this._router.navigate(['/dashboard/lesson/overview']);
+
     },
       (err) => {
         if (err.errmsg) {

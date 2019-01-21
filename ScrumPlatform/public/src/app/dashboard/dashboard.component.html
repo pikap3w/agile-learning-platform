@@ -12,9 +12,9 @@
 
 		<ul class="list-unstyled components">
 			<li class="active">
-				<a href="#OverviewSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Scrum
+				<a href="#OverviewSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Scrum
 					Overview</a>
-				<ul class="collapse list-unstyled" id="OverviewSubmenu">
+				<ul class="collapse list-unstyled show" id="OverviewSubmenu">
 					<li>
 						<a [routerLink]="['/dashboard/lesson/overview']">Overview</a>
 					</li>
@@ -78,7 +78,7 @@
 		</ul>
 		<ul class="list-unstyled components">
 			<li class="active mb-4">
-				<a href="#">About Us</a>
+				<a [routerLink]="['/dashboard/about']">About Us</a>
 			</li>
 		</ul>
 	</nav>
@@ -88,8 +88,8 @@
 			<div class="col text-center">
 				<h3 class="logo d-inline-block text-center">[Logo Here]</h3>
 				<h3 class="username d-inline-block float-left">Welcome [Username Here]</h3>
-				<a class="float-right" href="">
-					<h3>logout</h3>
+				<a class="float-right" href="/">
+					<h6 class="text-danger">logout</h6>
 				</a>
 			</div>
 		</div>

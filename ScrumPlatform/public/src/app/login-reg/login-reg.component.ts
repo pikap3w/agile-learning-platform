@@ -37,6 +37,7 @@ export class LoginRegComponent implements OnInit {
         }
         else {
           this.errors = err;
+          this.dup_errors = { err: false };
         }
         this.entry = { username: "", password: "", password_conf: "" };
       });

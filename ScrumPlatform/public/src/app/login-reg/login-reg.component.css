@@ -88,3 +88,10 @@ label {
   display: none
 }
 
+.text-danger, .text-warning {
+	font-size: 75%;
+}
+
+small {
+	display: block;
+}

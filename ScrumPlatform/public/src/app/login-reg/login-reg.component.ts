@@ -32,11 +32,12 @@ export class LoginRegComponent implements OnInit {
       this._router.navigate(['/dashboard/lesson/overview']);
     },
       (err) => {
-        if (err.errmsg) {
+        if (err.error.errmsg) {
           this.dup_errors = { err: "Duplicate found" };
         }
         else {
           this.errors = err;
+          this.dup_errors = { err: false };
         }
         this.entry = { username: "", password: "", password_conf: "" };
       });
@@ -44,19 +45,12 @@ export class LoginRegComponent implements OnInit {
 
   loginButton() {
     var observable = this._httpService.login(this.login_entry);
-    console.log("AAAAAaaaaaaaaaaaa");
     observable.subscribe(data2 => {
       this.login_entry = { username: "", password: "" };
       this._router.navigate(['/dashboard/lesson/overview']);
-
     },
       (err) => {
-        if (err.errmsg) {
-          this.dup_errors = { err: "Duplicate found" };
-        }
-        else {
-          this.login_errors = err;
-        }
+        this.login_errors = err;
         this.login_entry = { username: "", password: "" };
       });
   }

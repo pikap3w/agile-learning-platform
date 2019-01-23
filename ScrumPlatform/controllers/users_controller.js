@@ -43,23 +43,23 @@ module.exports = {
         });
       });
     } else {
-      return res.status(400);
+      return res.status(400).json(err);
     }
   },
 
   login: function (req, res) {
     User.findOne({
       username: req.body.username
-    }, (err, this_user) => {
-      if (this_user) {
-        bcrypt.compare(req.body.password, this_user.password).then((status) => {
+    }, (err, user) => {
+      if (user) {
+        bcrypt.compare(req.body.password, user.password).then((status) => {
           if (status == false) {
             return res.status(400).json(err);
           } else {
-            req.session.user = this_user._id;
+            req.session.user = user._id;
             res.json({
               err: err,
-              this_user: this_user
+              user: user
             });
           }
         });

@@ -1,0 +1,27 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+.bottombar {
+  bottom: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  margin: 0px;
+  background-color: #fafafa;
+  z-index: 1;
+}
+
+.bottombar .col {
+  padding: 0px;
+}
+
+.prev-button {
+  display: inline-block;
+}

@@ -71,8 +71,15 @@
 
     </div>
   </div>
-  <div class="col justify-content-center text-center">
-    <a [routerLink]="['/dashboard/quiz/1']" class="btn btn-outline-secondary">Next</a>
+  <div class="bottombar row">
+      <div class="col">
+          <div class="prev-button">
+              <a [routerLink]="['/dashboard/lesson/scrum-master']" class="btn btn-outline-secondary">Prev</a>
+          </div>
+          <div class="next-button">
+              <a [routerLink]="['/dashboard/quiz/1']" class="btn btn-outline-secondary">Next</a>
+          </div>
+      </div>
   </div>
 </div>
 </body>

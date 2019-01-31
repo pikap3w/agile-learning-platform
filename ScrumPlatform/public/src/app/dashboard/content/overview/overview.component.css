@@ -29,10 +29,11 @@ iframe {
   z-index: 1;
 }
 
-.prev-button {
-  float: left;
+.bottombar .col {
+  padding: 0px;
 }
 
 .next-button {
+  display: inline-block;
   float: right;
 }

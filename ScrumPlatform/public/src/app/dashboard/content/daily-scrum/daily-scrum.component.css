@@ -15,3 +15,26 @@ iframe {
     padding: 5px;
     display: block;
   }
+
+.bottombar {
+  bottom: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  margin: 0px;
+  background-color: #fafafa;
+  z-index: 1;
+}
+
+.bottombar .col {
+  padding: 0px;
+}
+
+.prev-button {
+  display: inline-block;
+}
+
+.next-button {
+  display: inline-block;
+  float: right;
+}

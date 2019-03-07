@@ -18,7 +18,6 @@ export class QuizComponent implements OnInit {
   ngOnInit() {
     this.indexNum = 0;
     this._route.params.subscribe(params => {
-     console.log(`The parent params: ${params}`);
      this.quiz_id = params.id;
     });
     this.quizzes(this.quiz_id);
@@ -28,14 +27,11 @@ export class QuizComponent implements OnInit {
     this.grade = false;
     let obs = this._httpService.getQuizzes();
     obs.subscribe(data => {
-      console.log(data);
       if(num == 1){
         this.quiz = data['quizzes'][0];
-        console.log(this.quiz);
       }
       if(num == 2){
         this.quiz = data['quizzes'][1];
-        console.log(this.quiz)
       }
       // this._router.navigate(['login'])
     })
@@ -43,7 +39,6 @@ export class QuizComponent implements OnInit {
 
   answers(something){
     this.grade = true;
-    console.log(something)
   }
 
 }

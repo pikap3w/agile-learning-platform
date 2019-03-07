@@ -6,7 +6,6 @@ module.exports = {
   quizzes: function(req, res){
     Quiz.find({}).exec(function(err,quizzes){
       if(err){
-           console.log("Returned error", err);
             // respond with JSON
            res.json({err: err, quizzes: ""})
         }

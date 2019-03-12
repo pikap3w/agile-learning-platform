@@ -8,13 +8,46 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
+h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.photo {
+  height: 160px;
+  width: 150px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.info {
+  display: block;
+  width: 100%;
+  background-color: #fafafa;
+  margin: 0 auto;
+  overflow: auto;
+  margin-bottom: 10px;
+  transition: background-color 0.5s;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.info:hover {
+  background-color: #7386D5;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
 .bottombar {
   bottom: 0;
-  position: -webkit-sticky;
-  position: sticky;
   width: 100%;
   margin: 0px;
-  background-color: #fafafa;
   z-index: 1;
 }
 
